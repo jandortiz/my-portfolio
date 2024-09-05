@@ -31,6 +31,11 @@ h1 {
   background-color: black;
 }
 
+.seccion-clara {
+  color: black;
+  background-color: white;
+}
+
 .seccion-titulo {
   font-size: 2.5rem;
   padding: 15px 0;
@@ -76,6 +81,58 @@ h1 {
 .sobre-mi .contenedor {
   max-width: 1000px;
   text-align: center;
+
+}
+
+/* Sección de experiencia. */
+.experiencia {
+  padding: 40px 40px 60px 40px;
+}
+
+/* .experiencia .row div {
+  height: 250px;
+  background-color: purple;
+  border: 3px solid white;
+} */
+
+.experiencia i {
+  font-size: 2.5rem;
+  color: rgb(73, 190, 229);
+  background-color: #0a0a23;
+  padding: 8px 19px;
+  border-radius: 50%;
+}
+
+.experiencia .columna {
+  padding: 20px;
+  border: 2px solid #8080804d;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  transition: all 0.1s ease-in;
+}
+
+.experiencia .columna:hover {
+  color: white;
+  background-color: black;
+}
+
+.experiencia-titulo {
+  font-size: 25px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+
+.badges-contenedor {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.badge {
+  margin: 3px;
 
 }
 
