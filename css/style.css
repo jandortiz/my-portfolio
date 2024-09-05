@@ -9,26 +9,28 @@
   justify-content: space-between;
 }
 
-
-/* Agrego media queries. */
-@media screen and (max-width: 435px) {
-  .navbar-brand {
-    display: none;
-  }
-  
-}
+/* ########################################################## */
 
 /* Estilos generales. */
+
+body {
+  background-color: black;
+}
+
 section {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  margin: 5px;
 }
 
 h1 {
   font-size: 2.5rem;
+  font-family: "Macondo", Arial, Helvetica, sans-serif;
 }
+
+/* ########################################################## */
 
 /* Sección Hero. */
 .hero {
@@ -55,8 +57,17 @@ h1 {
   color: #615151;
 }
 
-.macondo-regular {
-  font-family: "Macondo", cursive;
-  font-weight: 400;
-  font-style: normal;
+/* Agrego media queries. */
+@media screen and (max-width: 435px) {
+  .navbar-brand {
+    display: none;
+  }
+  
+}
+
+@media screen and (min-width: 600px) {
+  .hero-inferior-imagen {
+    max-width: 1000px;
+  }
+  
 }
