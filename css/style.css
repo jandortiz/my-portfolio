@@ -170,6 +170,7 @@ h1 {
   border-radius: 10px;
   display:block;
   transition: all 0.2s ease;
+  text-align: center;
 }
 
 .proyectos-contenedor {
