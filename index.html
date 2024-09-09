@@ -157,95 +157,60 @@
       <h2 class="seccion-titulo texto-negro">Proyectos personales</h2>
       <h3 class="seccion-descripcion">Algunos proyectos realizados</h3>
 
-      <!-- Galería de proyectos. -->
-      <div class="container text-center proyectos-contenedor">
-        <div class="row">
-
+      <div id="carusel-proyectos-recientes" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
 
           <!-- Proyecto 1: Calculadora Python-->
-          <div class="col-12 col-md-6 col-lg-4">
-            <div class="proyecto">
-              <a href="https://github.com/jandortiz/proyecto_calculadora" target="_blank" rel="noopener noreferrer"> 
-                <img src="images/proyecto1.png">
-                <div class="overlay">
-                  <p>Calculadora Python</p>
-                </div>
-              </a>
-            </div>
+          <div class="carousel-item active" data-bs-interval="10000">
+            <a href="https://github.com/jandortiz/proyecto_calculadora" target="_blank" rel="noopener noreferrer"> 
+              <img src="images/proyecto1.png" class="d-block w-100" alt="Proyecto Calculadora">
+            </a>
           </div>
-
-
+          
           <!-- Proyecto 2: Prácticas Máster BigData UAM -->
-          <div class="col-12 col-md-6 col-lg-4">
-            <div class="proyecto">
-              <a href="https://github.com/jandortiz/codigos_practicas_uam/tree/dev" target="_blank" rel="noopener noreferrer">
-                <img src="images/proyecto1.png">
-                <div class="overlay">
-                  <p>Prácticas Máster BigData UAM</p>
-                </div>
-              </a>
-            </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <a a href="https://github.com/jandortiz/codigos_practicas_uam/tree/dev" target="_blank" rel="noopener noreferrer">
+              <img src="images/proyecto2.png" class="d-block w-100" alt="Prácticas UAM">
+            </a>
           </div>
 
           <!-- Proyecto 3: Mascotas de compañía. -->
-          <div class="col-12 col-md-6 col-lg-4">
-            <div class="proyecto">
-              <a href="https://www.kaggle.com/code/jeffersongarciaor/eda-mascotas-de-compa-a-madrid/edit" target="_blank" rel="noopener noreferrer">
-                <img src="images/proyecto1.png">
-                <div class="overlay">
-                  <p>EDA mascotas de compañía Madrid</p>
-                </div>
-              </a>
-            </div>
+          <div class="carousel-item">
+            <a a href="https://www.kaggle.com/code/jeffersongarciaor/eda-mascotas-de-compa-a-madrid/edit" target="_blank" rel="noopener noreferrer">
+              <img src="images/proyecto3.png" class="d-block w-100" alt="Prácticas UAM">
+            </a>
           </div>
-
 
           <!-- Proyecto 4: Análisis California Housing Clustering -->
-          <div class="col-12 col-md-6 col-lg-4">
-            <div class="proyecto">
-              <a href="https://www.kaggle.com/code/jeffersongarciaor/californiahousingclustering" target="_blank" rel="noopener noreferrer">
-                <img src="images/proyecto1.png">
-                <div class="overlay">
-                  <p>Análisis California Housing Clustering</p>
-                </div>
-              </a>
-            </div>
+          <div class="carousel-item">
+            <a a href="https://www.kaggle.com/code/jeffersongarciaor/californiahousingclustering" target="_blank" rel="noopener noreferrer">
+              <img src="images/proyecto4.png" class="d-block w-100" alt="Prácticas UAM">
+            </a>
           </div>
 
-
-          <!-- Proyecto 5: Análisis California Housing Clustering -->
-          <div class="col-12 col-md-6 col-lg-4">
-            <div class="proyecto">
-              <a href="https://www.kaggle.com/code/jeffersongarciaor/modelos-clasificacion-loan-status-prediction" target="_blank" rel="noopener noreferrer">
-                <img src="images/proyecto1.png">
-                <div class="overlay">
-                  <p>Modelos de clasificación: Loan Statuus Prediction</p>
-                </div>
-              </a>
-            </div>
-          </div>          
-
+          <!-- Proyecto 5: Modelos Clasificación Loan Status Prediction -->
+          <div class="carousel-item">
+            <a a href="https://www.kaggle.com/code/jeffersongarciaor/modelos-clasificacion-loan-status-prediction" target="_blank" rel="noopener noreferrer">
+              <img src="images/proyecto5.png" class="d-block w-100" alt="Prácticas UAM">
+            </a>
+          </div>
 
           <!-- Proyecto 6: Spotify API Data Retrieving -->
-          <div class="col-12 col-md-6 col-lg-4">
-            <div class="proyecto">
-              <a href="https://www.kaggle.com/code/jeffersongarciaor/spotify-api-data-retrieving" target="_blank" rel="noopener noreferrer">
-                <img src="images/proyecto1.png">
-                <div class="overlay">
-                  <p>Spotify API Data Retrieving</p>
-                </div>
-              </a>
-            </div>
-          </div>          
-        </div>
+          <div class="carousel-item">
+            <a a href="https://www.kaggle.com/code/jeffersongarciaor/spotify-api-data-retrieving" target="_blank" rel="noopener noreferrer">
+              <img src="images/proyecto6.png" class="d-block w-100" alt="Prácticas UAM">
+            </a>
+          </div>
       </div>
 
-      <a href="#" target="_blank" rel="noopener noreferrer">
-        <button type="button" class="btn btn-info">
-          Ver más proyectos
-          <i class="bi bi-arrow-right-circle-fill"></i>
-        </button>
-      </a>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carusel-proyectos-recientes" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Anterior</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carusel-proyectos-recientes" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Próximo</span>
+      </button>
     </section>
 
     <!-- Pie de página. -->
