@@ -27,7 +27,7 @@ h1 {
 }
 
 .seccion-oscura {
-  color: white;
+  color: #FFFFFF;
   background-color: #12162B
 }
 
@@ -117,7 +117,7 @@ h1 {
 
 .experiencia i {
   font-size: 2.5rem;
-  color: white;
+  color: #FFFFFF;
   background-color: #005BAA;
   padding: 8px 19px;
   border-radius: 50%;
